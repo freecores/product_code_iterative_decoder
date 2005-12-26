@@ -1,4 +1,4 @@
--- $Id: product_code.vhdl,v 1.1.1.1 2005-11-15 01:52:31 arif_endro Exp $
+-- $Id: product_code.vhdl,v 1.2 2005-12-26 04:32:32 arif_endro Exp $
 -------------------------------------------------------------------------------
 -- Title       : Product Code Iterative Decoder
 -- Project     : 
@@ -322,10 +322,10 @@ process (start)
 begin
    if (start = '1' and start'event) then
 
-      y0p <= y0p_b (07);
-      y1p <= y1p_b (07);
-      y2p <= y2p_b (07);
-      y3p <= y3p_b (07);
+      y0p <= y0p_b (08);
+      y1p <= y1p_b (08);
+      y2p <= y2p_b (08);
+      y3p <= y3p_b (08);
 
    end if;
 end process;
